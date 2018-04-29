@@ -73,8 +73,7 @@ nav {
 footer {
 	width: 100%;
 	height: 100px;
-	background-color: black;
-	padding: 8px
+	background-color: black
 }
 
 footer div img {
@@ -82,6 +81,7 @@ footer div img {
 }
 
 #textrodape {
+	margin-top: 30px;
 	color: white;
 	width: 85%;
 	text-align: center;
@@ -89,6 +89,7 @@ footer div img {
 }
 
 #iconrodape {
+	margin-top: 20px;
 	width: 15%;
 	float: left;
 	text-align: center
@@ -145,45 +146,111 @@ td {
 
 form {
 	margin: 0 auto;
-	margin-bottom: 50px;
+	margin-bottom: 20px;
 	width: 400px;
 	padding: 1em;
-	border: 1px solid #000000;
-	border-radius: 1em
+	border: 1px solid #dbdbdb;
+	background-color: #ffda97;
+	box-sizing: border-box
 }
 
-form divdiv {
-	margin-top: 1em
+.form-div {
+	margin-bottom: 1rem;
+}
+
+.form-element {
+	display: block;
+	width: 100%;
+	padding: .375rem .75rem;
+	font-size: 1rem;
+	line-height: 1.5;
+	color: #495057;
+	background-color: #fff;
+	background-clip: padding-box;
+	border: 1px solid #ced4da;
+	border-radius: .25rem;
+	transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
 }
 
 label {
 	display: inline-block;
-	width: 70px;
-	text-align: justify
+	margin-bottom: .5rem;
+}
+
+textarea {
+	resize: vertical
 }
 
 input,
 textarea {
 	font: 1em sans-serif;
-	width: 370px;
+	width: 300px;
 	box-sizing: border-box;
-	border: 1px solid #999
+	border-color: none;
+	transition: border-color 1s ease-in-out
 }
 
 input:focus,
 textarea:focus {
-	border-color: #000
+	border: 2px solid #ef4e36;
+	transition: border-color .50s ease-in-out
+}
+
+.btn {
+	padding-left: 90px;
+}
+
+.btn {
+	margin-left: .5em;
+}
+
+.btn {
+	background-color: rgb(255, 255, 255);
+	transition: background-color ease-in-out .30s;
+	padding: 6px 12px;
+	cursor: pointer;
+	border: 1px solid transparent;
+	border-radius: 4px;
+	border-color: #CCC;
+	outline: none;
+	font: inherit;
+}
+
+input {
+	display: block;
+	width: 100%;
+	padding: .375rem .75rem;
+	font-size: 1rem;
+	line-height: 1.5;
+	color: #495057;
+	background-color: #fff;
+	background-clip: padding-box;
+	border: 1px solid #ced4da;
+	border-radius: .25rem;
+	transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+	overflow: visible;
+}
+
+.btn:hover {
+	color: #333;
+	text-decoration: none;
+	background-color: #ffd079;
+	transition: background-color ease-in-out .30s;
+	border-color: #8c8c8c
 }
 
 textarea {
-	vertical-align: top;
-	height: 5em;
-	resize: vertical
-}
-
-button {
-	margin-left: .5em;
-	text-align: center
+	display: block;
+	width: 100%;
+	padding: .375rem .75rem;
+	font-size: 1rem;
+	line-height: 1.5;
+	color: #495057;
+	background-color: #fff;
+	background-clip: padding-box;
+	border: 1px solid #ced4da;
+	border-radius: .25rem;
+	transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
 }
 
 .texto {

@@ -52,25 +52,20 @@
 		</nav>
 	</header>
 
-	<form action="/pagina-processa-dados-do-form" method="post">
-
-		<div>
+	<form action="" method="POST">
+		<div class="form-div">
 			<label for="nome">Nome:</label>
-			<input type="text" id="nome" />
+			<input type="name" class="form-element" placeholder="Digite seu Nome" name="nome">
 		</div>
-		<div>
+		<div class="form-div">
 			<label for="email">E-mail:</label>
-			<input type="email" id="email" />
+			<input type="email" class="form-element" placeholder="Digite seu Email" name="email">
 		</div>
-		<div>
-			<label for="msg">Mensagem:</label>
-			<textarea id="msg"></textarea>
+		<div class="form-div">
+			<label for="message">Menssagem:</label>
+			<textarea class="form-element" rows="5" cols="20" name="message"></textarea>
 		</div>
-
-		<div class="button">
-			<button type="submit">Enviar sua mensagem</button>
-		</div>
-
+		<button type="submit" class="btn">Enviar</button>
 	</form>
 
 	<footer>
